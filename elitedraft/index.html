@@ -11,6 +11,24 @@
       header {
         width:100%;
         margin:0px;
+         border: 1px solid #0e325c;
+         box-shadow: 4px 4px 2px #888888;
+      }
+      .container {
+          width: 40%;
+          height: 40%;
+          background: #444;
+          margin: 0 auto;
+      }
+      .container img.wide {
+          max-width: 100%;
+          max-height: 100%;
+          height: auto;
+      }
+      .container img.tall {
+          max-height: 100%;
+          max-width: 100%;
+          width: auto;
       }
       nav {
           line-height:30px;
@@ -36,6 +54,8 @@
           clear:both;
           text-align:center;
           padding:5px;	 	 
+         border: 1px solid #0e325c;
+         box-shadow: 4px 4px 2px #888888;
       }
       div.container {
         width:100%;
@@ -73,20 +93,26 @@
          border: 1px solid #0e325c;
          box-shadow: 4px 4px 2px #888888;
       }
+      .fill {
+          overflow: hidden;
+          background-size: cover;
+          background-position: center;
+          background-image:"images/Banner_Invert.png";
+      }
   </style>
   </head>
 
   <body>
 
-        
-    <header><img src="images/Banner_Invert.png"></img></header>
+     <div class="fill">
+ <img src="images/Banner_Invert.png"></img>
+</div>   
 
     <div class="content">
     <section>
       <h3>The essential tool for your home draft...since 2010</h3>
-      <p>Track your entire draft: Normal drafts, Keeper (Dynasty) leagues, Auction leagues, Customize your player rankings from our frequently updated default rankings.  Depth charts, current player news, bye weeks, schedules, etc.</p>
-      <p>Track your entire fantasy football draft with ease.  Specify league name, number of teams, number of rounds, your draft position, rankings to use (standard, PPR, or your own custom rankings), draft order type (serpentine, 3rd round reversal, etc.), auction draft, optional keeper league options to protect players, etc.</p>
-      <p>During your draft, view player stats, bye weeks, adp, current adp value, auction value; you may set up a player queue, view cheat sheet by all players or by position, view draft results by round or by team, and sort player list multiple ways.  Undo picks if you make a mistake, or edit the entire draft, replacing, dropping or inserting picks.  Save drafts and come back to them later.  Export draft results in .csv or .html format.</p>
+      <p>Track your entire fantasy football live draft with ease, with support for standard, PPR, dynasty, auction, etc.  Customize your player rankings from our frequently updated default rankings (we provide rankings for both standard and PPR formats).  Depth charts, current player news, bye weeks, schedules, etc.</p>
+      <p>During your draft, view player stats, bye weeks, adp, current adp value, auction value, and more; you may set up a player queue, view cheat sheet by all players or by position, view draft results by round or by team, and sort player list multiple ways.  Undo picks if you make a mistake, or edit the entire draft, replacing, dropping or inserting picks.  Save drafts and come back to them later.  Export draft results in .csv or .html format and share them with anyone.</p>
     </section>
     </div>
     
