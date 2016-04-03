@@ -6,10 +6,9 @@ header {
 }
 .bullets {
    float: left;
-   align: center;
    margin: 10px;
-   padding: 24px;
-   width: 90%;
+   padding: 16px;
+   width: 80%;
    border: 1px solid #0e325c;
    box-shadow: 4px 4px 2px #888888;
 }   
