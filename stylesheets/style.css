@@ -1,6 +1,9 @@
 #div1 {
   display: fixed;
 }
+#li-nav {
+  display: inline;
+}
 header {
   display: fixed;
 }
