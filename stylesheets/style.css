@@ -38,5 +38,12 @@ li a:hover {
 }
 
 p {
-  margin-left: 15px;
+    font-family: Aileron, Arial;
+    margin-left: 15px;
+}
+
+footer {
+    font-family: Aileron, Arial;
+    background-color: #2D4981;
+    color: #ffffff;
 }
