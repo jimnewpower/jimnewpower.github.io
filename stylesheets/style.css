@@ -1,3 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #div1 {
   display: fixed;
 }
