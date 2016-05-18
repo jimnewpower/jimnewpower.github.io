@@ -7,7 +7,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-img {
+#logo-img {
   width: 250px;
   height: 250px;
 }
