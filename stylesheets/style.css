@@ -16,8 +16,7 @@ img {
 }
 #div2 {
   padding: 16px 64px 16px 64px;
-  background-color: #dddddd;
-  opacity = 0.7;
+  background:rgba(220, 220, 220, 0.5);
 }
 #li-nav {
   display: inline;
