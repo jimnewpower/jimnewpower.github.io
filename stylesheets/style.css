@@ -15,7 +15,9 @@ img {
   display: fixed;
 }
 #div2 {
-  padding: 32px;
+  padding: 64px;
+  background-color: #dddddd;
+  opacity = 0.7;
 }
 #li-nav {
   display: inline;
