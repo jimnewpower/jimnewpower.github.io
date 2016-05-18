@@ -44,4 +44,6 @@ footer {
     font-family: Aileron, Arial;
     background-color: #2D4981;
     color: #ffffff;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
