@@ -12,7 +12,7 @@ nav {
 }
 ul {
     list-style-type: none;
-    margin-left: 20px;
+    margin-left: 14px;
     padding: 0;
     overflow: hidden;
     background-color: #2D4981;
@@ -28,7 +28,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 4px 20px;
+    padding: 8px 20px;
     text-decoration: none;
 }
 
@@ -38,5 +38,5 @@ li a:hover {
 }
 
 p {
-  margin-left: 20px;
+  margin-left: 15px;
 }
