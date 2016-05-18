@@ -31,26 +31,26 @@ ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: #2D4981;
+    /*background-color: #2D4981;*/
 }
 
 li {
     font-family: Aileron, Arial;
     float: left;
-    color: white;
+    /*color: white;*/
 }
 
 li a {
     display: block;
-    color: white;
+    /*color: white;*/
     text-align: center;
     padding: 8px 20px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #ffffff;
-    color: #2D4981;
+    /*background-color: #ffffff;*/
+    /*color: #2D4981;*/
 }
 
 p {
