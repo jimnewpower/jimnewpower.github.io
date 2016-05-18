@@ -1,3 +1,9 @@
 #div1 {
   display: fixed;
 }
+header {
+  display: fixed;
+}
+nav {
+  display: inline-block;
+}
