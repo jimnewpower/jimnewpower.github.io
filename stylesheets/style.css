@@ -1,15 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: url("../images/Lab.png") no-repeat center center fixed; 
+  background: url("../images/Denver-LoHi3.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 #logo-img {
-  width: 200px;
+  width: 20%;
   height: auto;
+  float: left;
 }
 #div1 {
   display: fixed;
