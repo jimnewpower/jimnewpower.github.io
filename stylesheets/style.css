@@ -16,14 +16,16 @@ html, body {
   display: fixed;
 }
 #div2 {
-  padding: 16px 64px 16px 64px;
-  background:rgba(220, 220, 220, 0.2);
+  float: left;
+  padding: 24px 64px 16px 64px; 
+/*  background:rgba(220, 220, 220, 0.2); */
 }
 #li-nav {
   display: inline;
 }
 header {
-  display: fixed;
+  /*display: fixed;*/
+  padding: 5px;
 }
 nav {
   display: inline-block;
@@ -65,4 +67,6 @@ footer {
     color: #ffffff;
     padding-top: 4px;
     padding-bottom: 4px;
+    clear: both;
+    text-align: center;
 }
