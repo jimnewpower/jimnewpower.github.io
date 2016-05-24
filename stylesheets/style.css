@@ -8,7 +8,8 @@ html, body {
   background-size: cover;
 }
 #logo-img {
-  width: 25%;
+  width: 33%;
+  max-width: 200px;
   height: auto;
   float: left;
 }
