@@ -8,8 +8,8 @@ html, body {
   background-size: cover;
 }
 #logo-img {
-  width: 20%;
-  max-width: 500px;
+  width: 10%;
+  max-width: 300px;
   height: auto;
   float: left;
 }
@@ -71,7 +71,7 @@ p {
   float: left;
   margin: 20px;
   padding: 20px;
-  width: 100%;
+  width: 90%;
   border: 1px solid #ababab;
   box-shadow: 4px 4px 2px #888888;
   background:rgba(220, 220, 220, 0.2);
@@ -85,7 +85,7 @@ footer {
   text-align:center;
   margin: 20px;
   padding:20px;
-  width: 100%;
+  width: 90%;
   border: 1px solid #ababab;
   box-shadow: 4px 4px 2px #888888;
 }
