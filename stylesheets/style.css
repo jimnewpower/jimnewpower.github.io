@@ -1,14 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: url("../images/Denver-LoHi3.png") no-repeat center center fixed; 
+  background: url("../images/Denver-LoHi3.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 #logo-img {
-  width: 40%;
+  width: 20%;
   max-width: 500px;
   height: auto;
   float: left;
@@ -18,7 +18,7 @@ html, body {
 }
 #div2 {
   float: left;
-  padding: 10px 10px 10px 10px; 
+  padding: 10px 10px 10px 10px;
   /* background:rgba(220, 220, 220, 0.2); */
 }
 #li-nav {
@@ -69,13 +69,13 @@ p {
 .bullets {
   font-family: "Verdana";
   float: left;
-  margin: 10px;
-  padding: 16px;
-  width: 94%;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
   border: 1px solid #ababab;
   box-shadow: 4px 4px 2px #888888;
-  background:rgba(220, 220, 220, 0.2); 
-}   
+  background:rgba(220, 220, 220, 0.2);
+}
 footer {
   font-family: "Verdana";
   font: arial, sans-serif;
@@ -83,9 +83,9 @@ footer {
   color:white;
   clear:both;
   text-align:center;
-  margin: 10px;
-  padding:10px;	 	 
-  width: 94%;
+  margin: 20px;
+  padding:20px;
+  width: 100%;
   border: 1px solid #ababab;
   box-shadow: 4px 4px 2px #888888;
 }
