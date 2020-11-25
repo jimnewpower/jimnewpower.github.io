@@ -8,15 +8,28 @@
 
 html, body {
     background-color: #2d4981;
+    /* complementary colors to #2d4981: #81502d, #817a2d, #732d81 */
     color: white;
 }
 
+.smaller {
+  font-size: 0.75em;
+}
+
+.larger {
+  font-size: 1.5em;
+}
+
 a:link {
-  color: gray;
+  color: blue;
 }
 
 a:hover {
-  color: white;
+  color: green;
+}
+
+.center div {
+    text-align: center;
 }
 
 .header { grid-area: header; }
@@ -24,9 +37,9 @@ a:hover {
 .about { grid-area: about; }
 .philosophy { grid-area: philosophy; }
 .email { grid-area: email; }
-.github { grid-area: github; }
 .twitter { grid-area: twitter; }
-.stacko { grid-area: stacko; }
+.github { grid-area: github; }
+.stackoverflow { grid-area: stackoverflow; }
 .footer { grid-area: footer; }
 
 .grid-container {
@@ -36,49 +49,60 @@ a:hover {
     'software software software software'
     'philosophy philosophy philosophy philosophy'
     'about about about about'
-    'email github twitter stacko'
+    'email twitter github stackoverflow'
     'footer footer footer footer';
   grid-gap: 20px;
-#  background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
 }
 
 .grid-container > div {
   font-family: "Lucida Console", Courier, monospace;
-#  font-family: "Verdana";
-#  align-items: center;
-#  border-style: solid;
-#  border-width: 1px;
-#  border-color: #dcdcdc;
-#  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
   text-align: center;
+  vertical-align: middle;
   padding: 20px 20px;
-  font-size: 1.25em;
-#  box-shadow: 5px 5px #BBBBBB;
+}
+
+.normal-image {
+    padding: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.hover-image, .c2:hover .normal-image {
+  display: none;
+  padding: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.c2:hover .hover-image {
+  display: inline;
+  padding: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.email > div {
+    background: url("images/iconfinder_icon-email-material-design_3185260.png");
+    padding: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.email:hover {
+  background: url("images/iconfinder_icon-email-material-design_bright.png");
 }
 
 .button {
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-}
-
-.emailbutton {
-  background-color: #81502d;
-  color: black;
-  border: 1px solid #gray;
-}
-
-.emailbutton:hover {
-  background-color: #817a2d;
-  color: black;
 }
 
 .images {
@@ -86,6 +110,12 @@ a:hover {
     max-width: 200px;
     max-height: 200px;
     float: left;
+}
+
+.image-link {
+    padding: 10px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .githubimage {
