@@ -1,0 +1,95 @@
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+html, body {
+    background-color: #2d4981;
+    color: white;
+}
+
+a:link {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+.header { grid-area: header; }
+.software { grid-area: software; }
+.about { grid-area: about; }
+.philosophy { grid-area: philosophy; }
+.email { grid-area: email; }
+.github { grid-area: github; }
+.twitter { grid-area: twitter; }
+.stacko { grid-area: stacko; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'software software software software'
+    'philosophy philosophy philosophy philosophy'
+    'about about about about'
+    'email github twitter stacko'
+    'footer footer footer footer';
+  grid-gap: 20px;
+#  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+.grid-container > div {
+  font-family: "Lucida Console", Courier, monospace;
+#  font-family: "Verdana";
+#  align-items: center;
+#  border-style: solid;
+#  border-width: 1px;
+#  border-color: #dcdcdc;
+#  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 1.25em;
+#  box-shadow: 5px 5px #BBBBBB;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.emailbutton {
+  background-color: #81502d;
+  color: black;
+  border: 1px solid #gray;
+}
+
+.emailbutton:hover {
+  background-color: #817a2d;
+  color: black;
+}
+
+.images {
+    padding: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+}
+
+.githubimage {
+    padding: 10px;
+    max-width: 100px;
+    max-height: 80px;
+}
