@@ -52,8 +52,8 @@ a:hover {
     'menu philosophy philosophy philosophy philosophy philosophy'
     'menu about about about about about'
     'menu footer footer footer footer footer';
-  grid-gap: 20px;
-  padding: 20px;
+  grid-gap: 10px; /* spacing between grid elements */
+  padding: 10px; /* padding around the grid container */
 }
 
 .grid-container > div {
@@ -61,7 +61,7 @@ a:hover {
   margin: auto;
   text-align: center;
   vertical-align: middle;
-  padding: 20px 20px;
+  padding: 10px;
 }
 
 .normal-image {
