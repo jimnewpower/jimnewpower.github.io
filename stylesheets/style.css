@@ -33,6 +33,7 @@ a:hover {
 }
 
 .header { grid-area: header; }
+.menu { grid-area: menu; }
 .software { grid-area: software; }
 .about { grid-area: about; }
 .philosophy { grid-area: philosophy; }
@@ -40,17 +41,17 @@ a:hover {
 .twitter { grid-area: twitter; }
 .github { grid-area: github; }
 .stackoverflow { grid-area: stackoverflow; }
+.linkedin { grid-area: linkedin; }
 .footer { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header'
-    'software software software software'
-    'philosophy philosophy philosophy philosophy'
-    'about about about about'
-    'email twitter github stackoverflow'
-    'footer footer footer footer';
+    'menu header header header header header'
+    'menu software software software software software'
+    'menu philosophy philosophy philosophy philosophy philosophy'
+    'menu about about about about about'
+    'menu footer footer footer footer footer';
   grid-gap: 20px;
   padding: 20px;
 }
@@ -65,63 +66,22 @@ a:hover {
 
 .normal-image {
     padding: 10px;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .hover-image, .c2:hover .normal-image {
   display: none;
   padding: 10px;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .c2:hover .hover-image {
   display: inline;
   padding: 10px;
-  max-width: 100px;
-  max-height: 100px;
-}
-
-.email > div {
-    background: url("images/iconfinder_icon-email-material-design_3185260.png");
-    padding: 10px;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-.email:hover {
-  background: url("images/iconfinder_icon-email-material-design_bright.png");
-}
-
-.button {
-  border: none;
-  color: white;
-  padding: 10px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.images {
-    padding: 10px;
-    max-width: 200px;
-    max-height: 200px;
-    float: left;
-}
-
-.image-link {
-    padding: 10px;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-.githubimage {
-    padding: 10px;
-    max-width: 100px;
-    max-height: 80px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .header h1 {
