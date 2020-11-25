@@ -17,7 +17,7 @@ html, body {
 }
 
 .larger {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 a:link {
@@ -52,12 +52,12 @@ a:hover {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'menu header header header header header'
-    'menu mission mission mission mission mission'
-    'menu philosophy philosophy philosophy philosophy philosophy'
-    'menu expertise expertise expertise expertise expertise'
-    'menu about about about about about'
-    'menu footer footer footer footer footer';
+    'menu header'
+    'menu mission'
+    'menu philosophy'
+    'menu expertise'
+    'menu about'
+    'menu footer';
   grid-gap: 20px; /* spacing between grid elements */
   padding: 20px; /* padding around the grid container */
 }
@@ -67,6 +67,7 @@ a:hover {
   margin: auto;
   text-align: center;
   vertical-align: middle;
+  width: 70%;
   padding: 20px;
 }
 
@@ -74,6 +75,26 @@ a:hover {
     padding: 10px;
     max-width: 50px;
     max-height: 50px;
+}
+
+.mission:hover {
+    background: #284071;
+    color: #d9e1f2;
+}
+
+.philosophy:hover {
+    background: #284071;
+    color: #d9e1f2;
+}
+
+.expertise:hover {
+    background: #284071;
+    color: #d9e1f2;
+}
+
+.about:hover {
+    background: #284071;
+    color: #d9e1f2;
 }
 
 .hover-image, .c2:hover .normal-image {
@@ -92,28 +113,14 @@ a:hover {
 
 .header h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid transparent; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin: 0 auto;  /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end 4.1;
+  animation: typing 2.5s steps(50, end), step-end 4.1;
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  0,
-  100% {
-    border-color: transparent
-  }
-  50% {
-    border-color: white;
-  }
 }
