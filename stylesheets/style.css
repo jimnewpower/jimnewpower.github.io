@@ -21,11 +21,15 @@ html, body {
 }
 
 a:link {
-  color: blue;
+  color: yellow;
+}
+
+a:visited {
+  color: green;
 }
 
 a:hover {
-  color: green;
+  color: orange;
 }
 
 .center div {
@@ -34,9 +38,10 @@ a:hover {
 
 .header { grid-area: header; }
 .menu { grid-area: menu; }
-.software { grid-area: software; }
+.mission { grid-area: mission; }
 .about { grid-area: about; }
 .philosophy { grid-area: philosophy; }
+.expertise { grid-area: expertise; }
 .email { grid-area: email; }
 .twitter { grid-area: twitter; }
 .github { grid-area: github; }
@@ -48,12 +53,13 @@ a:hover {
   display: grid;
   grid-template-areas:
     'menu header header header header header'
-    'menu software software software software software'
+    'menu mission mission mission mission mission'
     'menu philosophy philosophy philosophy philosophy philosophy'
+    'menu expertise expertise expertise expertise expertise'
     'menu about about about about about'
     'menu footer footer footer footer footer';
-  grid-gap: 10px; /* spacing between grid elements */
-  padding: 10px; /* padding around the grid container */
+  grid-gap: 20px; /* spacing between grid elements */
+  padding: 20px; /* padding around the grid container */
 }
 
 .grid-container > div {
@@ -61,7 +67,7 @@ a:hover {
   margin: auto;
   text-align: center;
   vertical-align: middle;
-  padding: 10px;
+  padding: 20px;
 }
 
 .normal-image {
