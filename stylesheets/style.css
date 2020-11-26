@@ -58,7 +58,7 @@ a:hover {
     'menu expertise'
     'menu about'
     'menu footer';
-  grid-gap: 20px; /* spacing between grid elements */
+  grid-gap: 10px 20px; /* row col spacing between grid elements */
   padding: 20px; /* padding around the grid container */
 }
 
@@ -67,14 +67,8 @@ a:hover {
   margin: auto;
   text-align: center;
   vertical-align: middle;
-  width: 70%;
-  padding: 20px;
-}
-
-.normal-image {
-    padding: 10px;
-    max-width: 50px;
-    max-height: 50px;
+  width: 75%;
+  padding: 10px 20px;
 }
 
 .mission:hover {
@@ -95,6 +89,22 @@ a:hover {
 .about:hover {
     background: #284071;
     color: #d9e1f2;
+}
+
+.hover3-image, .c3:hover .normal3-image {
+  display: none;
+  padding: 10px;
+}
+
+.c3:hover .hover3-image {
+  display: inline;
+  padding: 10px;
+}
+
+.normal-image {
+    padding: 10px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .hover-image, .c2:hover .normal-image {
