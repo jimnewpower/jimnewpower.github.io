@@ -21,15 +21,15 @@ html, body {
 }
 
 a:link {
-  color: yellow;
+  color: lightgray;
 }
 
 a:visited {
-  color: green;
+  color: lightgray;
 }
 
 a:hover {
-  color: orange;
+  color: yellow;
 }
 
 .center div {
@@ -71,25 +71,10 @@ a:hover {
   padding: 10px 20px;
 }
 
-.mission:hover {
-    background: #284071;
-    color: #ffffe6;
-}
-
-.philosophy:hover {
-    background: #284071;
-    color: #ffffe6;
-}
-
-.expertise:hover {
-    background: #284071;
-    color: #ffffe6;
-}
-
-.about:hover {
-    background: #284071;
-    color: #ffffe6;
-}
+.mission:hover    { background: #284071; }
+.philosophy:hover { background: #284071; }
+.expertise:hover  { background: #284071; }
+.about:hover      { background: #284071; }
 
 .hover3-image, .c3:hover .normal3-image {
   display: none;
@@ -102,23 +87,23 @@ a:hover {
 }
 
 .normal-image {
-    padding: 10px;
-    max-width: 50px;
-    max-height: 50px;
+  padding: 10px 20px;
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .hover-image, .c2:hover .normal-image {
   display: none;
-  padding: 10px;
-  max-width: 50px;
-  max-height: 50px;
+  padding: 10px 20px;
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .c2:hover .hover-image {
   display: inline;
-  padding: 10px;
-  max-width: 50px;
-  max-height: 50px;
+  padding: 10px 20px;
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .header h1 {
