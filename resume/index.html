@@ -1,34 +1,192 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title></title>
-	</head>
-	<body>
-		<div id="header">
-			<p id="name">Jim Newpower</p>
-			<a href="mailto:jimnewpower@primalimited.com"><p id="email">email</p></a>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		ul.no-bullets {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		}
+	</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Jim Newpower</h1>
+        <h5 class="text-center">Software Engineer</h5>
+		<br>
+		<div class="wrapper text-center">
+			<div class="btn-group">
+					<a class="btn btn-outline-secondary" href="mailto:jimnewpower@primalimited.com" target="_blank">
+						<img src="../images/iconfinder_icon-email-material-design_3185260.png" alt="email" class="normal-image" width="24" height="24">
+					</a>
+
+				<button type="button" class="btn btn-outline-secondary">
+					<a href="https://twitter.com/cubuff92?ref_src=twsrc%5Etfw" target="_blank">
+					  <img src="../images/iconfinder_twitter_291710.png" alt="twitter" class="normal-image" width="24" height="24">
+					</a>
+				</button>
+	
+				<button type="button" class="btn btn-outline-secondary">
+					<a href="https://github.com/jimnewpower" target="_blank">
+					  <img src="../images/iconfinder_github_291716.png" alt="github" class="normal-image" width="24" height="24">
+					</a>
+				</button>
+	
+				<button type="button" class="btn btn-outline-secondary">
+					<a href="https://stackoverflow.com/users/8593760/jim-newpower" target="_blank">
+					  <img src="../images/stack-overflow.png" alt="stack overflow" class="normal-image" width="24" height="24">
+					</a>
+				</button>
+	
+				<button type="button" class="btn btn-outline-secondary">
+					<a href="https://www.linkedin.com/in/jimnewpower/" target="_blank">
+					  <img src="../images/linkedin.png" alt="linkedin" class="normal-image" width="24" height="24">
+    				</a>
+				</button>
+			</div>
 		</div>
-		<div class="left"></div>
-		<div class="right">
-			<h4>Objective</h4>
-			<p>Engineer great software for great people.</p>
-			<h4>Experience</h4>
-			<p>Principal Engineer, Platte River Associates, Inc. (2008-2016)</p>
-			<ul>
-				<li>Architecture and engineering for flagship product, BasinMod</li>
-				<li>Agile, Test-Driven Development, Java, Python, C/C++, SQL</li>
-			</ul>
-			<h4>Skills</h4>
-			<p>Languages: Java, Python, C/C++, C#, JavaScript, PHP, SQL</p>
-			<h4>Education</h4>
-			<p>Bachelor of Science, Computer Science, College of Engineering and Applied Science, University of Colorado at Boulder</p>
-			<ul>
-				<li>1992</li>
-			</ul>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+					<div class="card-header">Software Engineer</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Self-Employed</h5>
+                        <!-- Add your experience details here -->
+                        <ul>
+                            <li>Develop an Android activity tracker, showing high-resolution locations on a map with velocity and slope overlays.</li>
+                            <li>Created REST API to query Shuttle Radar Topography Mission high-resolution (30-meter) elevation data given GPS coordinates. Implement colored hill shading map overlays.</li>
+                            <li>Engineered a fantasy football draft application. Query rankings, positional needs, suggest picks, update backend database to track draft in real time.</li>
+							<li>Executed contract to modify a custom Android OS for Spectralink handheld devices, resulting in 50% reduction in outstanding issues.</li>
+                        </ul>
+                    </div>
+					<div class="card-footer text-muted">2000-Present</div>
+                </div>
+            </div>
 		</div>
-		<div id="footer">
-			<p>2757 S Langley Ct, Denver, CO 80210 | Tel: (303) 870-4369</p>
+		<br>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+					<div class="card-header">Software Engineer</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Platte River Associates</h5>
+                        <!-- Add your experience details here -->
+                        <ul>
+                            <li>Led team of 5 developers, and engineered 8 robust applications for the BasinMod geoscience application suite.</li>
+                            <li>Championed Agile transformation, reducing release cycle >90% from annually to monthly.</li>
+                            <li>Coordinated with cross-functional teams, clients, and stakeholders to deliver frequent releases for 100+ domestic and international clients.</li>
+							<li>Drove SQL database backend (200+ tables), replacing flat file storage mechanism (100’s of individual files).</li>
+							<li>Implemented surface modeling algorithms and data structures (gridding, contouring, triangulated irregular networks), handling millions of vertices.</li>
+                        </ul>
+                    </div>
+					<div class="card-footer text-muted">1993-2000</div>
+                </div>
+            </div>
 		</div>
-	</body>
+		<br>
+        <div class="row">
+			<div class="col">
+                <div class="card">
+					<div class="card-header">Education</div>
+                    <div class="card-body">
+                        <!-- Add your education details here -->
+						<ul class="no-bullets">
+							<li>Bachelor of Science</li>
+							<li>Computer Science Engineering</li>
+							<li>University of Colorado (Boulder)</li>
+						</ul>
+                    </div>
+					<div class="card-footer text-muted">1992</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+					<div class="card-header">Philosophy</div>
+                    <div class="card-body">
+                        <!-- Add your skills here -->
+                        <ul>
+                            <li>Agile, test-driven, CI/CD, DRY, SOLID.</li>
+                            <li>Security, DevOps, DevSecOps (shift-left).</li>
+                            <li>Modularity, performance, maintainability.</li>
+                        </ul>
+                    </div>
+					<div class="card-footer text-muted">...</div>
+                </div>
+            </div>
+		</div>
+		<br>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+					<div class="card-header">Backend Skills</div>
+                    <div class="card-body">
+                        <!-- Add your skills here -->
+                        <ul>
+                            <li>RESTful APIs, PostreSQL, MySQL, Spring Boot</li>
+                            <li>Java, Python, PHP, Go, Node, Git</li>
+                            <li>AWS, Docker</li>
+                        </ul>
+                    </div>
+					<div class="card-footer text-muted">...</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+					<div class="card-header">Frontend Skills</div>
+                    <div class="card-body">
+                        <!-- Add your skills here -->
+                        <ul>
+                            <li>HTML, CSS, JavaScript, TypeScript, Bootstrap</li>
+                            <li>Responsive design</li>
+                            <li>Performance and browser compatibility</li>
+                        </ul>
+                    </div>
+					<div class="card-footer text-muted">...</div>
+                </div>
+            </div>
+		</div>
+		<br>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+					<div class="card-header">Steepshots</div>
+                    <div class="card-body">
+                        <!-- Add your skills here -->
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                        </ul>
+                    </div>
+					<div class="card-footer text-muted">...</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+					<div class="card-header">Elitedraft</div>
+                    <div class="card-body">
+                        <!-- Add your skills here -->
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                        </ul>
+                    </div>
+					<div class="card-footer text-muted">...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
