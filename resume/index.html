@@ -13,6 +13,51 @@
 		ul.no-bullets {
 		  list-style-type: none;
 		}
+		/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+		.flip-card {
+			background-color: transparent;
+			width: 420px;
+			height: 300px;
+			border: 1px solid #ffffff;
+			perspective: 1000px; /* Remove this if you don't want the 3D effect */
+		}
+
+		/* This container is needed to position the front and back side */
+		.flip-card-inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			transition: transform 0.8s;
+			transform-style: preserve-3d;
+		}
+
+		/* Do an horizontal flip when you move the mouse over the flip box container */
+		.flip-card:hover .flip-card-inner {
+			transform: rotateY(180deg);
+		}
+
+		/* Position the front and back side */
+		.flip-card-front, .flip-card-back {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			-webkit-backface-visibility: hidden; /* Safari */
+			backface-visibility: hidden;
+		}
+
+		/* Style the front side (fallback if image is missing) */
+		.flip-card-front {
+			background-color: #ffffff;
+			color: black;
+		}
+
+		/* Style the back side */
+		.flip-card-back {
+			background-color: #f2f2f2;
+			color: #0d075d;
+			transform: rotateY(180deg);
+		}
 	</style>
 </head>
 
@@ -166,34 +211,37 @@
 		<br>
         <div class="row">
             <div class="col">
-                <div class="card">
-					<div class="card-header">Steepshots Project</div>
-                    <div class="card-body">
-                        <!-- Add your skills here -->
-                        <ul>
-                            <li>Ski and Activity Tracker</li>
-                            <li>Android Frontend</li>
-                            <li>Google Maps SDK</li>
-                        </ul>
-                    </div>
-					<div class="card-footer text-muted">...</div>
-                </div>
-            </div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="../images/steepshots.png" alt="logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Steepshots</h1>
+						<p>Ski Tracker</p>
+						<p>Android and Web Application</p>
+						<a href="http://steepshots.com" target="_blank">Website</a>
+						<br>
+						<a href="https://play.google.com/store/apps/details?id=com.steepshots" target="_blank">Google Play</a>
+					</div>
+					</div>
+		        </div>
+	        </div>
             <div class="col">
-                <div class="card">
-					<div class="card-header">Elitedraft Project</div>
-                    <div class="card-body">
-                        <!-- Add your skills here -->
-                        <ul>
-                            <li>Fantasy Football Draft App</li>
-                            <li>Android and Web Frontends</li>
-                            <li>Spring Boot w/PostgreSQL Backend</li>
-                        </ul>
-                    </div>
-					<div class="card-footer text-muted">...</div>
-                </div>
-            </div>
-        </div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="../images/elitedraft.png" alt="logo">
+					</div>
+					<div class="flip-card-back">
+						<h1>Elitedraft</h1>
+						<p>Fantasy Draft</p>
+						<p>Android and Web Application</p>
+					</div>
+					</div>
+		        </div>
+	        </div>
+		</div>
 		<br>
     </div>
 </body>
